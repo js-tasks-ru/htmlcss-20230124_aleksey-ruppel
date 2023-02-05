@@ -1,4 +1,9 @@
 @import '../fonts/fonts.css';
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
@@ -21,4 +26,25 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+**::after,
+**::before {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #212429;
+    line-height: 24px;
+
 }
