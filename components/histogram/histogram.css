@@ -40,14 +40,14 @@
 
 .histogram__content {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     flex-direction: row-reverse;
     transform: rotate(180deg);
 }
 
 .histogram__power {
     display: block;
-    width: 9px;
+    width: 7px;
     height: 40px;
     background-color: var(--blue);
     margin-right: 1px;
