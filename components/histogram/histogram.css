@@ -47,8 +47,7 @@
 
 .histogram__power {
     display: block;
-    width: 7px;
-    height: 40px;
+    width: 9px;
     background-color: var(--blue);
     margin-right: 1px;
 }
