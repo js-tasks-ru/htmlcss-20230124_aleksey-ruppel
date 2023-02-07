@@ -1,6 +1,5 @@
 .skeleton {
     border: 1px solid #ACB5BD;
-    max-width: 579px;
 }
 
 .skeleton__inner {
@@ -32,11 +31,11 @@
     margin-bottom: 8px;
 }
 
-.short {
+.skeleton__item_short {
     width: 40%;
 }
 
-.middle {
+.skeleton__item_middle {
     width: 50%;
 }
 
