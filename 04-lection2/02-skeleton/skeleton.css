@@ -1,0 +1,44 @@
+.skeleton {
+    border: 1px solid #ACB5BD;
+}
+
+.skeleton__inner {
+    padding: 24px 40px 32px 24px;
+}
+
+.skeleton__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    background-color: #ACB5BD;
+    border-radius: 50%;
+}
+
+.skeleton__info {
+    width: 100%;
+    margin-left: 16px;
+}
+
+.skeleton__item {
+    width: 100%;
+    height: 20px;
+    background-color: #ACB5BD;
+    margin-bottom: 8px;
+}
+
+.skeleton__item_short {
+    width: 40%;
+}
+
+.skeleton__item_middle {
+    width: 50%;
+}
+
+.skeleton__item:last-child {
+    margin-bottom: 0;
+}
