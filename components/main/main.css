@@ -1,4 +1,6 @@
 .main {
     flex-grow: 1;
     background-color: #f9fafc;
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
 }
